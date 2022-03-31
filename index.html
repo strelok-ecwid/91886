@@ -7,9 +7,13 @@
     <title>Document</title>
 </head>
 <body>
-    <iframe src="https://my.ecwid.com/cp/ " style="width:1920px;height:1080px">
+    <iframe id="frame" style="width:1920px;height:1080px">
        
     </iframe>
-
+<script>
+const frame=document.getElementById("frame");
+let src="https://my.ecwid.com/cp/"
+frame.setAttribute("src","https://my.ecwid.com/cp/")
+</script>
 </body>
 </html>
